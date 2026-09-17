@@ -1,0 +1,980 @@
+{
+  "schema": 1,
+  "version": 1,
+  "updatedAt": "2026-09-16",
+  "defaultThemeId": 1,
+  "themes": [
+    {
+      "id": 1,
+      "name": "Night Sky",
+      "displayName": "Night Sky",
+      "tone": "dark",
+      "image": "n_night_sky_v1.webp",
+      "palette": {
+        "bg": "#17184A",
+        "surface": "#211F57",
+        "surfaceAlt": "#2B2866",
+        "glass": "rgba(28, 26, 78, 0.72)",
+        "border": "#3A367A",
+        "text": "#F4EFE6",
+        "textDim": "#C3BCE0",
+        "textFaint": "#8C85B8",
+        "accent": "#E6C27A",
+        "onAccent": "#17184A",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "16, 16, 48",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#FFDFA0",
+        "count": 14
+      }
+    },
+    {
+      "id": 2,
+      "name": "Still Water",
+      "displayName": "Still Water",
+      "tone": "dark",
+      "image": "n_still_water_v1.webp",
+      "palette": {
+        "bg": "#141E17",
+        "surface": "#1B281F",
+        "surfaceAlt": "#243329",
+        "glass": "rgba(22, 32, 25, 0.72)",
+        "border": "#324437",
+        "text": "#F1ECDD",
+        "textDim": "#BFC8B4",
+        "textFaint": "#85927F",
+        "accent": "#E9C57E",
+        "onAccent": "#141E17",
+        "heart": "#EE8497",
+        "danger": "#E27A6C"
+      },
+      "scrim": {
+        "rgb": "14, 22, 16",
+        "opacity": 0.45
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#E6F59A",
+        "count": 16
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sakura Night",
+      "displayName": "Sakura Night",
+      "tone": "dark",
+      "image": "n_sakura_valley_night_v1.webp",
+      "palette": {
+        "bg": "#181F35",
+        "surface": "#232C4A",
+        "surfaceAlt": "#2E3960",
+        "glass": "rgba(24, 31, 53, 0.72)",
+        "border": "#3E4C7E",
+        "text": "#F2EDE6",
+        "textDim": "#C0C4E0",
+        "textFaint": "#8A90B4",
+        "accent": "#E6B98E",
+        "onAccent": "#181F35",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "16, 22, 40",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F5E3B8",
+        "count": 10
+      }
+    },
+    {
+      "id": 4,
+      "name": "Fairy Lanterns",
+      "displayName": "Fairy Lanterns",
+      "tone": "dark",
+      "image": "n_fairy_lanterns_moon_v1.webp",
+      "palette": {
+        "bg": "#0E1828",
+        "surface": "#152337",
+        "surfaceAlt": "#1D2F49",
+        "glass": "rgba(14, 24, 40, 0.72)",
+        "border": "#2A4160",
+        "text": "#EFF3FA",
+        "textDim": "#B9C8DE",
+        "textFaint": "#8091AA",
+        "accent": "#9DC9F0",
+        "onAccent": "#0E1828",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "10, 18, 32",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#C7E6FF",
+        "count": 12
+      }
+    },
+    {
+      "id": 5,
+      "name": "Moon Lake",
+      "displayName": "Moon Lake",
+      "tone": "dark",
+      "image": "n_moon_lake_blossom_v1.webp",
+      "palette": {
+        "bg": "#231F2C",
+        "surface": "#2F2A3B",
+        "surfaceAlt": "#3C3649",
+        "glass": "rgba(35, 31, 44, 0.72)",
+        "border": "#4E465E",
+        "text": "#F1EDF3",
+        "textDim": "#C3BCCB",
+        "textFaint": "#8C849A",
+        "accent": "#E8A971",
+        "onAccent": "#231F2C",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "26, 22, 34",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F7D9A0",
+        "count": 10
+      }
+    },
+    {
+      "id": 6,
+      "name": "Gilded Roses",
+      "displayName": "Gilded Roses",
+      "tone": "dark",
+      "image": "n_gilded_roses_v1.webp",
+      "palette": {
+        "bg": "#101822",
+        "surface": "#17212E",
+        "surfaceAlt": "#1E2B3A",
+        "glass": "rgba(16, 24, 34, 0.72)",
+        "border": "#2A3B4E",
+        "text": "#F5EFE3",
+        "textDim": "#C6C3B8",
+        "textFaint": "#8B8A84",
+        "accent": "#DCA94F",
+        "onAccent": "#101822",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "12, 18, 26",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F2CE7C",
+        "count": 12
+      }
+    },
+    {
+      "id": 7,
+      "name": "Violet Arch",
+      "displayName": "Violet Arch",
+      "tone": "dark",
+      "image": "n_violet_arch_v1.webp",
+      "palette": {
+        "bg": "#1A1823",
+        "surface": "#242131",
+        "surfaceAlt": "#2F2B3F",
+        "glass": "rgba(26, 24, 35, 0.72)",
+        "border": "#403B54",
+        "text": "#F1EEF6",
+        "textDim": "#C2BCD2",
+        "textFaint": "#8A85A0",
+        "accent": "#E7B183",
+        "onAccent": "#1A1823",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "20, 18, 28",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#D9C8F5",
+        "count": 12
+      }
+    },
+    {
+      "id": 8,
+      "name": "Autumn Maple",
+      "displayName": "Autumn Maple",
+      "tone": "dark",
+      "image": "n_autumn_maple_v1.webp",
+      "palette": {
+        "bg": "#20181E",
+        "surface": "#2C2229",
+        "surfaceAlt": "#3A2D36",
+        "glass": "rgba(32, 24, 30, 0.72)",
+        "border": "#4C3B46",
+        "text": "#F3EBE4",
+        "textDim": "#C9B9B6",
+        "textFaint": "#8E7B7E",
+        "accent": "#E0A46B",
+        "onAccent": "#20181E",
+        "heart": "#F0808F",
+        "danger": "#E27A6C"
+      },
+      "scrim": {
+        "rgb": "26, 18, 24",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F6B26B",
+        "count": 12
+      }
+    },
+    {
+      "id": 9,
+      "name": "Pink Falls",
+      "displayName": "Pink Falls",
+      "tone": "dark",
+      "image": "n_pink_tree_falls_v1.webp",
+      "palette": {
+        "bg": "#171E22",
+        "surface": "#1F282D",
+        "surfaceAlt": "#283338",
+        "glass": "rgba(23, 30, 34, 0.72)",
+        "border": "#36444A",
+        "text": "#EFF1EE",
+        "textDim": "#BCC6C4",
+        "textFaint": "#85918F",
+        "accent": "#DFA269",
+        "onAccent": "#171E22",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "18, 24, 27",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F7C4CF",
+        "count": 12
+      }
+    },
+    {
+      "id": 10,
+      "name": "Violet Leaf",
+      "displayName": "Violet Leaf",
+      "tone": "dark",
+      "image": "n_violet_leaf_page_dark_v1.webp",
+      "palette": {
+        "bg": "#080C12",
+        "surface": "#101620",
+        "surfaceAlt": "#18202B",
+        "glass": "rgba(8, 12, 18, 0.72)",
+        "border": "#232D3A",
+        "text": "#EDEFF2",
+        "textDim": "#B6BDC6",
+        "textFaint": "#7E8792",
+        "accent": "#C9B588",
+        "onAccent": "#080C12",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "6, 10, 14",
+        "opacity": 0.3
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#D4C8F2",
+        "count": 10
+      }
+    },
+    {
+      "id": 11,
+      "name": "Butterfly Night",
+      "displayName": "Butterfly Night",
+      "tone": "dark",
+      "image": "n_butterfly_veil_night_v1.webp",
+      "palette": {
+        "bg": "#0F1C19",
+        "surface": "#162622",
+        "surfaceAlt": "#1F312C",
+        "glass": "rgba(18, 32, 28, 0.72)",
+        "border": "#2C433C",
+        "text": "#EEF2EA",
+        "textDim": "#B6C9C0",
+        "textFaint": "#7C928A",
+        "accent": "#9FD8C4",
+        "onAccent": "#0F1C19",
+        "heart": "#EE8497",
+        "danger": "#E27A6C"
+      },
+      "scrim": {
+        "rgb": "12, 24, 21",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#D8F5EA",
+        "count": 10
+      }
+    },
+    {
+      "id": 12,
+      "name": "Winter Plum Night",
+      "displayName": "Winter Plum Night",
+      "tone": "dark",
+      "image": "n_winter_plum_night_v1.webp",
+      "palette": {
+        "bg": "#0E1822",
+        "surface": "#152230",
+        "surfaceAlt": "#1C2C3D",
+        "glass": "rgba(14, 24, 34, 0.72)",
+        "border": "#293C50",
+        "text": "#EEF3F7",
+        "textDim": "#BCC8D3",
+        "textFaint": "#8292A1",
+        "accent": "#AFCBE6",
+        "onAccent": "#0E1822",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "10, 18, 26",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#E6F0FF",
+        "count": 10
+      }
+    },
+    {
+      "id": 13,
+      "name": "Almond Blossom Night",
+      "displayName": "Almond Blossom Night",
+      "tone": "dark",
+      "image": "n_almond_blossom_night_v1.webp",
+      "palette": {
+        "bg": "#111A2B",
+        "surface": "#182338",
+        "surfaceAlt": "#1F2C45",
+        "glass": "rgba(17, 26, 43, 0.72)",
+        "border": "#2C3B58",
+        "text": "#F3EEF0",
+        "textDim": "#C4C3D6",
+        "textFaint": "#8A8CA6",
+        "accent": "#E3BC7E",
+        "onAccent": "#111A2B",
+        "heart": "#F2809A",
+        "danger": "#E8776C"
+      },
+      "scrim": {
+        "rgb": "12, 18, 32",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "fireflies",
+        "color": "#F6D3B8",
+        "count": 12
+      }
+    },
+    {
+      "id": 14,
+      "name": "Ember",
+      "displayName": "Ember",
+      "tone": "dark",
+      "image": null,
+      "palette": {
+        "bg": "#0F0E0D",
+        "surface": "#1A1917",
+        "surfaceAlt": "#232120",
+        "glass": "#1A1917",
+        "border": "#302D2A",
+        "text": "#F2EDE6",
+        "textDim": "#948B82",
+        "textFaint": "#5F584F",
+        "accent": "#D9A87C",
+        "onAccent": "#0F0E0D",
+        "heart": "#E86A80",
+        "danger": "#C4574C"
+      },
+      "scrim": null,
+      "ambient": null
+    },
+    {
+      "id": 15,
+      "name": "Ivy Morning",
+      "displayName": "Ivy Morning",
+      "tone": "light",
+      "image": "d_ivy_morning_v1.webp",
+      "palette": {
+        "bg": "#EFEADA",
+        "surface": "#F8F5EB",
+        "surfaceAlt": "#E6E0CC",
+        "glass": "rgba(250, 247, 238, 0.82)",
+        "border": "#D6CEB6",
+        "text": "#2E3A2C",
+        "textDim": "#4A5545",
+        "textFaint": "#737B6B",
+        "accent": "#6E4F96",
+        "onAccent": "#F8F5EB",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "250, 247, 238",
+        "opacity": 0.45
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E2AE48",
+        "count": 12
+      }
+    },
+    {
+      "id": 16,
+      "name": "Ivy Page",
+      "displayName": "Ivy Page",
+      "tone": "light",
+      "image": "d_green_ivy_page_v1.webp",
+      "palette": {
+        "bg": "#EDEBD7",
+        "surface": "#F6F4E4",
+        "surfaceAlt": "#E2E0CB",
+        "glass": "rgba(246, 244, 228, 0.82)",
+        "border": "#CFCDB6",
+        "text": "#2C3A2A",
+        "textDim": "#46543F",
+        "textFaint": "#767F68",
+        "accent": "#43683C",
+        "onAccent": "#F6F4E4",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "246, 244, 228",
+        "opacity": 0.45
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#D9A847",
+        "count": 12
+      }
+    },
+    {
+      "id": 17,
+      "name": "Sage Arch",
+      "displayName": "Sage Arch",
+      "tone": "light",
+      "image": "d_sage_arch_v1.webp",
+      "palette": {
+        "bg": "#EEEBDC",
+        "surface": "#F8F6EC",
+        "surfaceAlt": "#E3E1CF",
+        "glass": "rgba(248, 246, 236, 0.82)",
+        "border": "#D3D0B8",
+        "text": "#26382B",
+        "textDim": "#3F5244",
+        "textFaint": "#737D6B",
+        "accent": "#7A5C24",
+        "onAccent": "#F8F6EC",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "246, 243, 230",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#D4A443",
+        "count": 12
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sakura Dawn",
+      "displayName": "Sakura Dawn",
+      "tone": "light",
+      "image": "d_sakura_valley_dawn_v1.webp",
+      "palette": {
+        "bg": "#F4E7E1",
+        "surface": "#FBF3EF",
+        "surfaceAlt": "#EBDAD3",
+        "glass": "rgba(251, 243, 239, 0.82)",
+        "border": "#DCC6BE",
+        "text": "#3A2630",
+        "textDim": "#4E3640",
+        "textFaint": "#83696F",
+        "accent": "#A24A62",
+        "onAccent": "#FBF3EF",
+        "heart": "#C4476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "250, 240, 235",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E6A06E",
+        "count": 12
+      }
+    },
+    {
+      "id": 19,
+      "name": "Wisteria Sunrise",
+      "displayName": "Wisteria Sunrise",
+      "tone": "light",
+      "image": "d_wisteria_sunrise_v1.webp",
+      "palette": {
+        "bg": "#F2E6DC",
+        "surface": "#FAF1EA",
+        "surfaceAlt": "#E8D8CC",
+        "glass": "rgba(250, 241, 234, 0.82)",
+        "border": "#D5C1B2",
+        "text": "#3A2E3C",
+        "textDim": "#4E4050",
+        "textFaint": "#82707F",
+        "accent": "#6B4E8C",
+        "onAccent": "#FAF1EA",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "250, 241, 234",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E0A45C",
+        "count": 12
+      }
+    },
+    {
+      "id": 20,
+      "name": "Lotus Dawn",
+      "displayName": "Lotus Dawn",
+      "tone": "light",
+      "image": "d_lotus_dawn_v1.webp",
+      "palette": {
+        "bg": "#F4E9D3",
+        "surface": "#FBF4E4",
+        "surfaceAlt": "#EADFC8",
+        "glass": "rgba(251, 244, 228, 0.82)",
+        "border": "#D8CBB0",
+        "text": "#3B3226",
+        "textDim": "#4F4433",
+        "textFaint": "#867A63",
+        "accent": "#A2661F",
+        "onAccent": "#FBF4E4",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "251, 244, 228",
+        "opacity": 0.45
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E3A13E",
+        "count": 12
+      }
+    },
+    {
+      "id": 21,
+      "name": "Gilded Garden",
+      "displayName": "Gilded Garden",
+      "tone": "light",
+      "image": "d_gilded_garden_v1.webp",
+      "palette": {
+        "bg": "#EAEFD9",
+        "surface": "#F6F8EC",
+        "surfaceAlt": "#DFE6CB",
+        "glass": "rgba(246, 248, 236, 0.82)",
+        "border": "#CDD6B4",
+        "text": "#1F3A33",
+        "textDim": "#3A534B",
+        "textFaint": "#6B7F72",
+        "accent": "#6E551C",
+        "onAccent": "#F6F8EC",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "246, 248, 236",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#D9A43A",
+        "count": 12
+      }
+    },
+    {
+      "id": 22,
+      "name": "Butterfly Veil",
+      "displayName": "Butterfly Veil",
+      "tone": "light",
+      "image": "d_butterfly_veil_v1.webp",
+      "palette": {
+        "bg": "#E6F2E6",
+        "surface": "#F4FAF3",
+        "surfaceAlt": "#DCEBDC",
+        "glass": "rgba(244, 250, 243, 0.80)",
+        "border": "#C6DCC8",
+        "text": "#1F3A2C",
+        "textDim": "#3C5A4A",
+        "textFaint": "#6E8A7C",
+        "accent": "#2E6A56",
+        "onAccent": "#F4FAF3",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "244, 250, 243",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#D8B24E",
+        "count": 12
+      }
+    },
+    {
+      "id": 23,
+      "name": "Olive Grove",
+      "displayName": "Olive Grove",
+      "tone": "light",
+      "image": "d_olive_grove_v1.webp",
+      "palette": {
+        "bg": "#EDE8DA",
+        "surface": "#F7F4EA",
+        "surfaceAlt": "#E2DDCC",
+        "glass": "rgba(247, 244, 234, 0.82)",
+        "border": "#D1CBB6",
+        "text": "#2F3527",
+        "textDim": "#4A5140",
+        "textFaint": "#71755F",
+        "accent": "#56632C",
+        "onAccent": "#F7F4EA",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "247, 244, 234",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E3B04A",
+        "count": 12
+      }
+    },
+    {
+      "id": 24,
+      "name": "Winter Plum",
+      "displayName": "Winter Plum",
+      "tone": "light",
+      "image": "d_winter_plum_v1.webp",
+      "palette": {
+        "bg": "#EAE8E6",
+        "surface": "#F6F5F3",
+        "surfaceAlt": "#DEDCDA",
+        "glass": "rgba(246, 245, 243, 0.82)",
+        "border": "#CBC8C6",
+        "text": "#2A2F38",
+        "textDim": "#454B55",
+        "textFaint": "#6E737E",
+        "accent": "#83466A",
+        "onAccent": "#F6F5F3",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "246, 245, 243",
+        "opacity": 0.4
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E8B48A",
+        "count": 12
+      }
+    },
+    {
+      "id": 25,
+      "name": "Almond Blossom",
+      "displayName": "Almond Blossom",
+      "tone": "light",
+      "image": "d_almond_blossom_v1.webp",
+      "palette": {
+        "bg": "#EEEAE1",
+        "surface": "#F8F5EE",
+        "surfaceAlt": "#E3E0D6",
+        "glass": "rgba(248, 245, 238, 0.82)",
+        "border": "#D2CEC3",
+        "text": "#27313F",
+        "textDim": "#435062",
+        "textFaint": "#6E7886",
+        "accent": "#3D6189",
+        "onAccent": "#F8F5EE",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "248, 245, 238",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E2AC7A",
+        "count": 12
+      }
+    },
+    {
+      "id": 26,
+      "name": "Ginkgo Gold",
+      "displayName": "Ginkgo Gold",
+      "tone": "light",
+      "image": "d_ginkgo_page_v1.webp",
+      "palette": {
+        "bg": "#F3E8D2",
+        "surface": "#FBF4E3",
+        "surfaceAlt": "#E9DDC4",
+        "glass": "rgba(251, 244, 227, 0.82)",
+        "border": "#D8C9AA",
+        "text": "#3A3020",
+        "textDim": "#54472F",
+        "textFaint": "#7C6D50",
+        "accent": "#8A5A14",
+        "onAccent": "#FBF4E3",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": {
+        "rgb": "251, 244, 227",
+        "opacity": 0.35
+      },
+      "ambient": {
+        "kind": "dust",
+        "color": "#E8A93A",
+        "count": 12
+      }
+    },
+    {
+      "id": 27,
+      "name": "Parchment",
+      "displayName": "Parchment",
+      "tone": "light",
+      "image": null,
+      "palette": {
+        "bg": "#F1EBDD",
+        "surface": "#F8F4E9",
+        "surfaceAlt": "#E7E0CE",
+        "glass": "#F8F4E9",
+        "border": "#D5CCB6",
+        "text": "#2E2A24",
+        "textDim": "#5E564A",
+        "textFaint": "#7E7568",
+        "accent": "#8A5C31",
+        "onAccent": "#F8F4E9",
+        "heart": "#C2476A",
+        "danger": "#A8453A"
+      },
+      "scrim": null,
+      "ambient": null
+    }
+  ],
+  "starters": {
+    "affirmations": [
+      "I am connected to something bigger than me, and it is on my side.",
+      "I am exactly where I need to be, and I am growing."
+    ],
+    "prompt": "Add your own words here ♥"
+  },
+  "about": {
+    "image": "about_art_v1.webp",
+    "imageDescription": "Li: an illuminated letter L with a flower, the moon and a star over still water",
+    "tagline": "Words to return to.",
+    "letter": {
+      "paragraphs": [
+        "Hey! My name is Daniel, and I developed this app.",
+        "This app is called after my medium-therapist - Lee.\nLee has been on my side for a while, and she would sometimes give me sentences to say to myself. Lee is very much in tune with whatever it is (Light, source, universe, intuition) and her words always struck deep and resonated with me.",
+        "I have thought about creating an app for self made affirmations for a while now, and decided to make it. I decided to call it \"Li\", as a tribute to her!",
+        "Li also means \"To me\", in Hebrew, which I found kind of suiting :)",
+        "Sending you big light and love, I hope that if you use this app, you find it helpful to raise your vibes and make you connect with and appreciate yourself, others, and life."
+      ],
+      "signoff": [
+        "It is all one.",
+        "Much love,  Daniel."
+      ]
+    },
+    "iconTitle": "The L and the i",
+    "iconIntro": "Every part of the Li icon was chosen with meaning. Together they describe what an affirmation does: a few words, said from the heart, that travel from the surface all the way down, and help something new grow.",
+    "symbols": [
+      {
+        "icon": "swap-vertical-outline",
+        "name": "The L",
+        "meaning": "One long, upright line that connects above and below: heaven and earth, high and low, spirit and body. It is the channel between what we reach for and where we stand, and the steady ground everything else grows from."
+      },
+      {
+        "icon": "flower-outline",
+        "name": "The i",
+        "meaning": "It grows from the tip of the L as a petal, opening. It stands for growth, for softening, and for letting ourselves open up to something new. A flower does not force itself to bloom; it opens when the conditions are right."
+      },
+      {
+        "icon": "moon-outline",
+        "name": "The moon",
+        "meaning": "The dot of the i, and the symbol of emotions. Like the moon, feelings wax and wane, move the tides within us, and give light even in the dark."
+      },
+      {
+        "icon": "water-outline",
+        "name": "The dark background and calm waters",
+        "meaning": "The subconscious, and the deep internal processes that happen quietly beneath the surface. Affirmations speak to this place. When the waters are calm, what we plant there can take root."
+      },
+      {
+        "icon": "star-outline",
+        "name": "The star",
+        "meaning": "Guidance. The inner voice, intuition, the light that shows the way when the path is not clear yet."
+      },
+      {
+        "icon": "heart-outline",
+        "name": "The name",
+        "meaning": "In Hebrew, “Li” means “to me”: words we say to ourselves. It is also a tribute to my therapist, Lee, whose words started all of this."
+      }
+    ],
+    "contactEmail": "danielgu.contact@gmail.com",
+    "footer": "Made by Wisdom Labs"
+  },
+  "privacy": {
+    "effective": "16 September 2026",
+    "sections": [
+      {
+        "heading": "The short version",
+        "body": [
+          "Your affirmations stay on your phone. There is no account and no sign-in, and what you write is never sent to us or to anyone else. Li sends only anonymous usage statistics, which you can turn off in Settings."
+        ]
+      },
+      {
+        "heading": "What Li stores, and where",
+        "body": [
+          "Your affirmations, which ones you have favorited, and your settings (theme, motion, notification time) are saved only in Li’s private storage on your device.",
+          "We cannot see, read or recover any of it."
+        ]
+      },
+      {
+        "heading": "Anonymous usage statistics",
+        "body": [
+          "To learn which features are used and what to improve, Li sends anonymous usage events to PostHog, our analytics provider, hosted in the EU. For example: that an affirmation was favorited, that a theme was chosen, that the app was opened, or how many affirmations and favorites a library holds.",
+          "These events never include the text of your affirmations, what you search for, or the names or contents of files you import. Li has no account and does not know who you are: events are linked only to a random ID created on your phone.",
+          "Along with each event, PostHog receives basic technical details: device model, operating system and version, app version, language and time zone. PostHog uses your IP address to estimate your country and city, and does not store the IP address with the events.",
+          "You can turn this off at any time in Settings → Privacy → “Share anonymous usage stats”. When it is off, nothing is sent."
+        ]
+      },
+      {
+        "heading": "What Li does not do",
+        "body": [
+          "Li does not ask for your name, email or any account details, does not show ads, and does not sell your data or share it with anyone for advertising."
+        ]
+      },
+      {
+        "heading": "Notifications",
+        "body": [
+          "If you turn on the daily affirmation, Li schedules the notifications on your device. No notification service or server is involved, and you can turn it off at any time in Settings or in your phone’s settings."
+        ]
+      },
+      {
+        "heading": "Importing and sharing",
+        "body": [
+          "When you import a text file, Li reads it on your device and keeps only the affirmations it finds.",
+          "When you share an affirmation or a backup, you choose where it goes (for example a chat app or email). From then on it is handled by that app, under its own privacy policy."
+        ]
+      },
+      {
+        "heading": "Backups by your phone",
+        "body": [
+          "If Android backup is turned on, your phone may include Li’s data in your personal Google account backup, so it can come back when you set up a new phone. That backup is handled by Google, not by Li."
+        ]
+      },
+      {
+        "heading": "Deleting your data",
+        "body": [
+          "You can delete all affirmations from Settings → Danger zone. Uninstalling Li removes everything it stored on your device."
+        ]
+      },
+      {
+        "heading": "Children",
+        "body": [
+          "Li is not directed at children under 13 and does not knowingly collect information from anyone."
+        ]
+      },
+      {
+        "heading": "Changes to this policy",
+        "body": [
+          "If Li ever starts handling data differently, this policy will be updated before that change is released, and the date below will change."
+        ]
+      },
+      {
+        "heading": "Downloaded content",
+        "body": [
+          "Li downloads its themes, images and texts (such as this policy) from GitHub and jsDelivr, so they can be updated without a new version of the app. Like any website, those services receive your IP address when the app downloads from them. Nothing about you or your affirmations is sent."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "body": [
+          "Questions about privacy: danielgu.contact@gmail.com"
+        ]
+      }
+    ]
+  },
+  "tips": {
+    "roll_double_tap": {
+      "icon": "heart",
+      "label": "Double tap to add to favorites!",
+      "cheer": "Fantastic!"
+    },
+    "roll_long_press": {
+      "icon": "create",
+      "label": "Hold to edit.",
+      "cheer": "Nice!"
+    },
+    "library_edit": {
+      "icon": "create",
+      "label": "Tap a line to edit it",
+      "cheer": "Superb!"
+    },
+    "library_select": {
+      "icon": "checkmark-done",
+      "label": "Hold one to pick a few at once",
+      "cheer": "Perfect!"
+    },
+    "library_reorder": {
+      "icon": "reorder-three",
+      "label": "Drag ≡ to move things around",
+      "cheer": "You’re awesome!"
+    }
+  },
+  "texts": {
+    "rateTitle": "Rate Li!",
+    "rateBody": "If you find this app valuable to you in anyway, we would appreciate if you’d rate us! ♥ Many thanks.",
+    "aboutCardTitle": "About Li",
+    "aboutCardBody": "The story behind Li, the icon, contact and privacy"
+  }
+}
