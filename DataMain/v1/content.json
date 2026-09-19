@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": 1,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-19",
   "defaultThemeId": 1,
   "themes": [
     {
@@ -868,7 +868,7 @@
       {
         "heading": "The short version",
         "body": [
-          "Your affirmations stay on your phone. There is no account and no sign-in, and what you write is never sent to us or to anyone else. Li sends only anonymous usage statistics, which you can turn off in Settings."
+          "Your affirmations stay on your phone. There is no account and no sign-in, and what you write is never sent to us or to anyone else. Li also sends anonymous usage statistics, which are part of how Li works and cannot be turned off."
         ]
       },
       {
@@ -884,7 +884,7 @@
           "To learn which features are used and what to improve, Li sends anonymous usage events to PostHog, our analytics provider, hosted in the EU. For example: that an affirmation was favorited, that a theme was chosen, that the app was opened, or how many affirmations and favorites a library holds.",
           "These events never include the text of your affirmations, what you search for, or the names or contents of files you import. Li has no account and does not know who you are: events are linked only to a random ID created on your phone.",
           "Along with each event, PostHog receives basic technical details: device model, operating system and version, app version, language and time zone. PostHog uses your IP address to estimate your country and city, and does not store the IP address with the events.",
-          "You can turn this off at any time in Settings → Privacy → “Share anonymous usage stats”. When it is off, nothing is sent."
+          "These statistics are part of how Li works and there is no setting to turn them off. If you would rather not send them, uninstalling Li stops them completely."
         ]
       },
       {
