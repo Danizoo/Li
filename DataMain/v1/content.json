@@ -815,8 +815,8 @@
     "letter": {
       "paragraphs": [
         "Hey! My name is Daniel, and I developed this app.",
-        "This app is called after my medium-therapist - Lee.\nLee has been on my side for a while, and she would sometimes give me sentences to say to myself. Lee is very much in tune with whatever it is (Light, source, universe, intuition) and her words always struck deep and resonated with me.",
-        "I have thought about creating an app for self made affirmations for a while now, and decided to make it. I decided to call it \"Li\", as a tribute to her!",
+        "This app is named after my medium-therapist - Lee.\nLee has been on my side for a while, and she would sometimes give me sentences to say to myself. Lee is very much in tune with whatever it is (Light, source, universe, intuition) and her words always struck deep and resonated with me.",
+        "I have thought about creating an app for self-made affirmations for a while now, and decided to make it. I decided to call it \"Li\", as a tribute to her!",
         "Li also means \"To me\", in Hebrew, which I found kind of suiting :)",
         "Sending you big light and love, I hope that if you use this app, you find it helpful to raise your vibes and make you connect with and appreciate yourself, others, and life."
       ],
@@ -957,23 +957,23 @@
     },
     "library_edit": {
       "icon": "create",
-      "label": "Tap a line to edit it",
+      "label": "Tap a line to edit it.",
       "cheer": "Superb!"
     },
     "library_select": {
       "icon": "checkmark-done",
-      "label": "Hold one to pick a few at once",
+      "label": "Hold to pick a few at once.",
       "cheer": "Perfect!"
     },
     "library_reorder": {
       "icon": "reorder-three",
-      "label": "Drag ≡ to move things around",
+      "label": "Drag ≡ to move things around!",
       "cheer": "You’re awesome!"
     }
   },
   "texts": {
     "rateTitle": "Rate Li!",
-    "rateBody": "If you find this app valuable to you in anyway, we would appreciate if you’d rate us! ♥ Many thanks.",
+    "rateBody": "If you find this app valuable to you in any way, we would appreciate if you’d rate us! ♥ Many thanks.",
     "aboutCardTitle": "About Li",
     "aboutCardBody": "The story behind Li, the icon, contact and privacy"
   }
