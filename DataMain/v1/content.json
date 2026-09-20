@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-09-19",
   "defaultThemeId": 1,
   "themes": [
@@ -969,12 +969,40 @@
       "icon": "reorder-three",
       "label": "Drag ≡ to move things around!",
       "cheer": "You’re awesome!"
+    },
+    "library_add": {
+      "icon": "add-circle",
+      "label": "Tap + to write your first one",
+      "cheer": "Lovely!"
     }
   },
   "texts": {
     "rateTitle": "Rate Li!",
     "rateBody": "If you find this app valuable to you in any way, we would appreciate if you’d rate us! ♥ Many thanks.",
     "aboutCardTitle": "About Li",
-    "aboutCardBody": "The story behind Li, the icon, contact and privacy"
+    "aboutCardBody": "The story behind Li, the icon, contact and privacy",
+    "invitationLink": "Need a moment first?"
+  },
+  "invitation": {
+    "title": "An invitation",
+    "paragraphs": [
+      "Before you write, take a minute for yourself.",
+      "Sit somewhere quiet. Close your eyes if you like, and let your breathing slow down on its own.",
+      "When you are ready, reach for the part of you that is kind — the one that would never speak to you the way you sometimes do.",
+      "Write from there. Words of grace. Words of encouragement. Words you would want to hear on a hard day."
+    ],
+    "beginLabel": "I'm ready",
+    "writeTitle": "Your words",
+    "stems": [
+      "I am learning to",
+      "I forgive myself for",
+      "Today I choose",
+      "I am allowed to",
+      "I am becoming",
+      "I give myself permission to"
+    ],
+    "placeholder": "Write here…",
+    "saveLabel": "Keep these words",
+    "note": "One day there will be words of wisdom from Lee herself. More about that soon."
   }
 }
